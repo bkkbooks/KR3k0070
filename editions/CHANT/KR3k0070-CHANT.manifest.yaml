@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR3k0070/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3k0070/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 翰苑殘卷
+  identifiers:
+    krp: KR3k0070
+  tags:
+    kr-categories: KR3k
+  source:
+    repository: tls-texts
+    path: data/tls/KR3k0070.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3k0070_001-CHANT.yaml, hash: 'sha256:a26968e62344eb823248ac7aa3cb11f7ebbfd9f938ae8ee39101c013be437c36'}
+  - {seq: 2, filename: KR3k0070_002-CHANT.yaml, hash: 'sha256:2cc9b0e9bd826ee096cb82f6b669a4db5a2e28839d6f21936a784f6be4c14aec'}
+  - {seq: 3, filename: KR3k0070_003-CHANT.yaml, hash: 'sha256:9859ed1b398a1c6a6fd9ffb742277a824ed39828ef8e0e36a98c240fb282dba4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3k0070_001-CHANT.markers.yaml, hash: 'sha256:0e4b5076eb03e250e771acda393b4072d69192beca52b78e310e7f98c173f34f'}
+  - {seq: 2, role: markers, filename: assets/KR3k0070_002-CHANT.markers.yaml, hash: 'sha256:3b3c07c73dad966a82b2b495d7e2d7184a6bd576c1517c3e86cbcd6d1407bd82'}
+  - {seq: 3, role: markers, filename: assets/KR3k0070_003-CHANT.markers.yaml, hash: 'sha256:caffadaf4db6aee32c9e037dbcc0ace7eeb6ff6822289da1ff6fc0d1cb67760a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3k0070_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 359
+  label: 後敘
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3k0070_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 21183
+  label: 匈奴
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3k0070_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 2404
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:c0955172a6010b33868b7ad23038fc01dc57bcb6f49790ce1bc766353e8d52a9
